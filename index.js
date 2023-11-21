@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const scanner = require('fpScanner');
+const scanner = require('fpscanner');
 const cors = require('cors');
 
 const app = express();
