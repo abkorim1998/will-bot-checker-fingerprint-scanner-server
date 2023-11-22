@@ -15,6 +15,8 @@ app.post('/handle-post', (req, res) => {
     try {
         //fingerprint is the fingerprint collected with fp-collect
         scannerResults = scanner.analyseFingerprint(requestBody);
+		console.log("--------------------------------------------------------");
+		console.log("--------------------------------------------------------");
 		console.log(scannerResults);
         // User agent of the browser
         res.json({ message: 'result', scannerResults });
